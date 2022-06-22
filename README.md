@@ -13,3 +13,11 @@ The colored states are the 42 states whose death count had exceeded 100 by the e
 * [Daily infection estimates for states with and without facemask mandate](https://github.com/lyh07749/Yuhang_Liu_Profile/blob/main/images/NPI/Mask_Infection_Estimates.png)
 * [Daily death estimates for states with and without facemask mandate](https://github.com/lyh07749/Yuhang_Liu_Profile/blob/main/images/NPI/Mask_Death_Estimates.png)
 
+### Project 1: COVID-19 Survival Model Comparasion
+
+**Study Period:** March 2020 to December 2020
+**Data:** the data originated from Stony Brook Medicine and were received in raw as csv files. 
+* The **first raw EMR data file (dim: 3535 * 168)** contains the patient demographics data, including but not limited to mrn, encounter number, admission date, discharge date, age, gender, race, ethnicity, symtoms (cough, sore throat, etc.), pre-exisisting conditions (heart failure, COPD, CHD, etc.), and patient vital status. Most of the patients have only one encounter during the study period, but there's still some patients have multiple encounters. If this is the case, we select the most recent COVID-19 related encounter.
+* The **second raw EMR data file (dim: 1048571 * 10)** contains 26 measured biomarkers, including but not limited to ALT, AST, Creatinine, C-Reactive Protein, etc. The lab will only measure the biomarkers which the physician considered necessary for the patient. The physician may start/stop asking measure a particular biomarker at any time during a patient's hospital stay. If necessary, one biomarker might being measured multiple times for the same patient within the same day.
+
+[Sample Biomarker Data](https://github.com/lyh07749/Yuhang_Liu_Profile/blob/main/data_files/Covid_Survival_Models/sample%20biomarker%20data.csv)
