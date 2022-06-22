@@ -29,3 +29,16 @@ The colored states are the 42 states whose death count had exceeded 100 by the e
 * Conditional Inference Forest
 
 **Result Visulizations (generated using ggplot in R):** will be updated after journal publication.
+
+### Project 2: Patient Self-Report Superior to Electronic Medical Record Abstraction for Identifying Positive COVID-19 Symptoms at Illness Onset [(Published)](https://www.sciencedirect.com/science/article/pii/S2773065422000049)
+
+**Study Period:** Feburary 2020 to August 2020
+
+**Data:** the received **survey data (dim: 316 * 1219)** was collected from patient telephone interviews and electronic medical record (EMR) abstraction. Potential risk factors assessed included participant demographics, medical comorbidities, and number and type of symptoms at illness onset. Outcome measures included symptom duration, hospitalizations, and persistence of symptoms at 12 weeks from study enrollment.
+
+**Statistical Analysis:** Patient characteristics were described using medians (range) and frequencies (percentages) when appropriate. Percentages of pre-existing medical comorbidities, number of symptoms at onset of illness, COVID-19 testing, and escalating medical care were calculated. Percentages of each individual symptom were calculated at onset of illness and at 12 week follow up. To evaluate the association of risk factors with hospitalization (ever vs. never) and symptom chronicity (persistent vs. resolved), **univariable and multivariable analyses** were performed.  To evaluate for association of risk factors with duration of symptoms, **Spearman correlation** was used. For univariable analyses, **Chi-square tests** were used for categorical risk factors (e.g. medical comorbidities, travel history). **Wilcoxon rank sum tests** were used for numeric risk factors (e.g. number of symptoms at illness onset). For multivariable analyses, hospitalization (ever vs never) and symptom resolved status (persistent vs resolved) were analyzed as the outcomes in **logistic regression**. Explanatory variables included number of symptoms, presence of 5 key signs, symptoms at onset of illness, medical comorbidities, history of travel and demographic characteristics (i.e. age, gender and race). 
+
+**Result Highlights:**
+* Nearly 1/5 of patients with COVID-19 had no pre-existing medical conditions
+* Patients self-reported nearly twice as many symptoms as recorded in medical records
+* More symptoms at illness onset was associated with symptom duration and chronicity
