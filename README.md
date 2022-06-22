@@ -5,7 +5,7 @@ Worldwide, governments imposed a wide range of non-pharmaceutical interventions 
 ![US Map](./images/NPI/US_States.png)
 The colored states are the 42 states whose death count had exceeded 100 by the end of the study period where the grey states were the ones excluded from the analysis due to low death count.The 14 green states implemented facemask mandate policy during the study period where the 28 pink states did not implement facemask mandate policy during the study period.
 
-Result Visulizations (generated using ggplot in R):
+**Result Visulizations (generated using ggplot in R):**
 * [The effectiveness of 5 commonly imposed NPIs](https://github.com/lyh07749/Yuhang_Liu_Profile/blob/main/images/NPI/NPI_Rt_Reduction.png) (represented by the percentage reduction on Rt)
 * [The estimated Rt trajectory for Massachusets](https://github.com/lyh07749/Yuhang_Liu_Profile/blob/main/images/NPI/Massachusetts_Rt.png) (all 42 states are available but only present one for illustration purpose)
 * [The estimated (orange) and observed (brown) infections and deaths for Massachusets](https://github.com/lyh07749/Yuhang_Liu_Profile/blob/main/images/NPI/Massachusetts_Infection_Death.png) 
