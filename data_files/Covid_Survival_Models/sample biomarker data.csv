@@ -1,0 +1,21 @@
+﻿Encounter Number,Result Code,Display Name,Result Display,Service Date,Numeric Display,Numeric Modifier,Text Value,Unit Of Measure Display,Result Status
+Patient 1,xxxx-x,ALT (SGPT),Alanine aminotransferase [Enzymatic activity/volume] in Serum or Plasma by No addition of P-5'-P,day 3 09:12am,25,,,international unit per liter,Final
+Patient 1,xxxx-x,AST (SGOT),Aspartate aminotransferase [Enzymatic activity/volume] in Serum or Plasma,day1 08:58am,17,,,international unit per liter,Final
+Patient 1,xxxx-x,AST (SGOT),Aspartate aminotransferase [Enzymatic activity/volume] in Serum or Plasma,day3 10:23am,23,,,international unit per liter,Final
+Patient 1,xxxx-x,AST (SGOT),Aspartate aminotransferase [Enzymatic activity/volume] in Serum or Plasma,day3 14:34pm,13,,,international unit per liter,Final
+Patient 1,xxxx-x,AST (SGOT),Aspartate aminotransferase [Enzymatic activity/volume] in Serum or Plasma,day3 17:29pm,27,,,international unit per liter,Final
+Patient 1,xxxx-x,AST (SGOT),Aspartate aminotransferase [Enzymatic activity/volume] in Serum or Plasma,day10 05:30am,14,,,international unit per liter,Final
+Patient 1,xxxx-x,Creatinin,Creatinine [Mass/volume] in Serum or Plasma,day 2 19:28pm,6,,,international unit per liter,Final
+Patient 1,xxxx-x,Creatinin,Creatinine [Mass/volume] in Serum or Plasma,day3 06:15am,18,,,international unit per liter,Final
+Patient 1,xxxx-x,Creatinin,Creatinine [Mass/volume] in Serum or Plasma,day3 09:48am,10,,,international unit per liter,Final
+,,Patient 1 other biomarkers omitted here,,,,,,,
+Patient 2,xxxx-x,AST (SGOT),Aspartate aminotransferase [Enzymatic activity/volume] in Serum or Plasma,day1 04:12am,16,,,international unit per liter,Final
+Patient 2,xxxx-x,AST (SGOT),Aspartate aminotransferase [Enzymatic activity/volume] in Serum or Plasma,day1 08:46am,18,,,international unit per liter,Final
+Patient 2,xxxx-x,Ferritin,Ferritin [Mass/volume] in Serum or Plasma,day2 16:20pm,566.8,,,nanogram per millliiter,Final
+Patient 2,xxxx-x,Ferritin,Ferritin [Mass/volume] in Serum or Plasma,day5 17:25pm,498.2,,,nanogram per millliiter,Final
+Patient 2,xxxx-x,Ferritin,Ferritin [Mass/volume] in Serum or Plasma,day6 23:14pm,532.7,,,nanogram per millliiter,Final
+Patient 2,xxxx-x,Hematocrit,Hematocrit [Volume Fraction] of Blood by Automated count,day4 11:30am,32.7,,,percent,Final
+Patient 2,xxxx-x,Hematocrit,Hematocrit [Volume Fraction] of Blood by Automated count,day4 12:35pm,33.4,,,percent,Final
+Patient 2,xxxx-x,Hematocrit,Hematocrit [Volume Fraction] of Blood by Automated count,day4 14:39pm,35.2,,,percent,Final
+,,Patient 2 other biomarkers omitted here,,,,,,,
+Other patients and their biomarkers ommited here,,,,,,,,,
