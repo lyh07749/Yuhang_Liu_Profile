@@ -28,4 +28,4 @@ The colored states are the 42 states whose death count had exceeded 100 by the e
 * Survival Tree
 * Conditional Inference Forest
 
-**Results:** will be updated after journal publication.
+**Result Visulizations (generated using ggplot in R):** will be updated after journal publication.
