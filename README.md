@@ -42,3 +42,33 @@ The colored states are the 42 states whose death count had exceeded 100 by the e
 * Nearly 1/5 of patients with COVID-19 had no pre-existing medical conditions
 * Patients self-reported nearly twice as many symptoms as recorded in medical records
 * More symptoms at illness onset was associated with symptom duration and chronicity
+
+### Project 3: Clinical Predictors of Acute Cardiac Injury and Normalization of Troponin after Hospital Discharge from COVID-19 [(Published)](https://www.thelancet.com/action/showPdf?pii=S2352-3964%2822%2900010-X)
+
+**Study Period:** March 2020 to June 2021
+
+**Data:** All data originated from the Montefiore Health System, one of the largest healthcare systems in New York City located in the Bronx, the lower Hudson Valley, and Westchester County. The Montefiore Health System serves a large, low-income, and racially and ethnically
+diverse population in the Bronx environs that was hit hard by COVID-19 early in the pandemic. The **data (dim: 1115 * 45)** was already being de-identified and cleaned when received. Demographics, chronic comorbidities, vital signs and laboratory tests were collected.
+
+**Statistical Analysis:** Patients were considered to have ACI if they had a serum troponin T (TNT) level above the 99th percentile upper reference limit (0.014 ng/mL) any time during hospitalization. Group comparisons (recovery vs non-recovery) of categorical variables were performed using the **Chi-squared test**. Group comparison of continuous variables in medians and interquartile ranges (IQR) were performed using the **Wilcoxon test**. All predictive models (**Classification and Regression Tree, Random Forest, and Neural Network**) employed 80% training data and 20% testing with ten-fold cross validation, implemented in R. 
+
+**Result Visualizations (generated using ggplot in R):**
+
+Persistent cardiac injury is common among COVID-19 survivors. Readily available patient data accurately predict ACI recovery post-discharge. Prediction of ACI recovery post-discharge using the top predictors (troponin, creatinine, lymphocyte, sodium, lactate dehydrogenase, lymphocytes and hematocrit) at discharge yielded 63.73%-75.73% accuracy. Early identification of at-risk patients could help prevent long-term cardiovascular complications.
+
+* [Histograms of TNT level at different time points](./images/ACI/ACI_1.jpg)
+* [Predictive models at discharge using CART, random forest, and neural network](./images/ACI/ACI_2.jpg)
+* [Bar charts of top predictors at different time points](./images/ACI/ACI_3.jpg)
+
+### Project 4: COPE Study: Identify Potential Contributors to Maternal Stress During COVID-19
+
+### Project 5: GA-Cares Study: Identify Potential Association Between 5-year Survival and Anesthetics Medium of Resection
+
+This multi-site study is still in the **patient recruiting** process. The primary objective of this study is to determine if the administration of propofol for maintenance of general anesthesia during cancer surgery improves overall survival compared with general anesthesia maintained with a volatile agent.
+
+**Duties:**
+ 
+* Write **SQL queries** to retrieve patients' electrical medical records from Stony Brook Medicine database.
+* Matched surgery dates between New York State Cancer Registry (NYCR) longitudinal data and 5 sites’ electrical medical records **using R**.
+* Prepared mismatched patients’ review sheets for physicians to manually review and select the desired record.
+* Extract patients’ cancer recurrence information from NYCR and update in the database yearly
