@@ -6,12 +6,12 @@ Worldwide, governments imposed a wide range of non-pharmaceutical interventions 
 The colored states are the 42 states whose death count had exceeded 100 by the end of the study period where the grey states were the ones excluded from the analysis due to low death count.The 14 green states implemented facemask mandate policy during the study period where the 28 pink states did not implement facemask mandate policy during the study period.
 
 **Result Visulizations (generated using ggplot in R):**
-* [The effectiveness of 5 commonly imposed NPIs](https://github.com/lyh07749/Yuhang_Liu_Profile/blob/main/images/NPI/NPI_Rt_Reduction.png) (represented by the percentage reduction on Rt)
-* [The estimated Rt trajectory for Massachusets](https://github.com/lyh07749/Yuhang_Liu_Profile/blob/main/images/NPI/Massachusetts_Rt.png) (all 42 states are available but only present one for illustration purpose)
-* [The estimated (orange) and observed (brown) infections and deaths for Massachusets](https://github.com/lyh07749/Yuhang_Liu_Profile/blob/main/images/NPI/Massachusetts_Infection_Death.png) 
-* [Median time-varying reproduction number estimates for states with and without facemask mandate](https://github.com/lyh07749/Yuhang_Liu_Profile/blob/main/images/NPI/Mask_Rt_Estimates.png)
-* [Daily infection estimates for states with and without facemask mandate](https://github.com/lyh07749/Yuhang_Liu_Profile/blob/main/images/NPI/Mask_Infection_Estimates.png)
-* [Daily death estimates for states with and without facemask mandate](https://github.com/lyh07749/Yuhang_Liu_Profile/blob/main/images/NPI/Mask_Death_Estimates.png)
+* [The effectiveness of 5 commonly imposed NPIs](./images/NPI/NPI_Rt_Reduction.png) (represented by the percentage reduction on Rt)
+* [The estimated Rt trajectory for Massachusets](./images/NPI/Massachusetts_Rt.png) (all 42 states are available but only present one for illustration purpose)
+* [The estimated (orange) and observed (brown) infections and deaths for Massachusets](./images/NPI/Massachusetts_Infection_Death.png) 
+* [Median time-varying reproduction number estimates for states with and without facemask mandate](./images/NPI/Mask_Rt_Estimates.png)
+* [Daily infection estimates for states with and without facemask mandate](./images/NPI/Mask_Infection_Estimates.png)
+* [Daily death estimates for states with and without facemask mandate](./images/NPI/Mask_Death_Estimates.png)
 
 ### Project 1: COVID-19 Survival Model Comparasion
 
@@ -89,3 +89,11 @@ The primary objective of this multi-site study is to determine if the administra
 * Match surgery dates between New York State Cancer Registry (NYCR) longitudinal data and 5 sites’ electrical medical records **using R**.
 * Prepare mismatched patients’ review sheets for physicians to manually review and select the desired record.
 * Extract patients’ cancer recurrence information from NYCR and update in the database yearly
+
+
+### Some Visualizations (Generated Using ggplot in R)
+* [Timing Plot](./images/Others/Timing.png)
+* [Heatmap](./images/Others/Heatmap.jpeg)
+* [Interval Plot](./images/Others/Interval Plot.png)
+* [Survival Plot](./images/Others/Survival_Plot.png)
+* [Time Plot](./images/Others/Time_Plot.png)
