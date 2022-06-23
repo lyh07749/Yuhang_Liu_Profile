@@ -94,6 +94,6 @@ The primary objective of this multi-site study is to determine if the administra
 ### Some Visualizations (Generated Using ggplot in R)
 * [Timing Plot](./images/Others/Timing.png)
 * [Heatmap](./images/Others/Heatmap.jpeg)
-* [Interval Plot](./images/Others/Interval Plot.png)
+* [Interval Plot](./images/Others/Interval_Plot.png)
 * [Survival Plot](./images/Others/Survival_Plot.png)
 * [Time Plot](./images/Others/Time_Plot.png)
