@@ -62,13 +62,30 @@ Persistent cardiac injury is common among COVID-19 survivors. Readily available 
 
 ### Project 4: COPE Study: Identify Potential Contributors to Maternal Stress During COVID-19
 
+**Study Period:** March 2020 to December 2020
+
+**Data:** The received survey data **(dim: 7345 * 105)** was obtained through telephone interviews for 4400 pregnant women in wave 1 and 3000 in wave 2. The study survey were being administered every 3-4 months, following participants throughout their pregnancy and into the postpartum period. The proposed structure equation model includes following features and could be classified as follows:
+* **Social Determinents of Health (SDoH):** age, race, education level, marital status, etc.
+* **Covid Conditions:** pandemic-related income loss, access to outdoor, healthcare disruption, etc.
+* **Control Variables:** number of parities, chronic health conditions, Gestational age， etc.
+* **Stress Variables:** pandemic unprepredness stress, perinatal infection stress, pregnancy specific stress,etc.
+
+**Models Implemented**
+* **CART & Random Forest:** aiming dimentionality reduction
+* **Structural Equation Modelling (SEM):** analyzing structural relationships
+
+**Result Visualizations:** This study is still in progress and the visualizations have not been finialized (titles, labels, colors, etc.) yet.
+* [CART](./images/COPE/CART.png), [Random Forest](./images/COPE/RF.png): repeat for all groups of features and stress variables, only include 1 for illustration purpose.
+* [Structural Equation Model](./images/COPE/SEM_Result.png): using all available types of stress to create a lateng stress variable.
+
+
 ### Project 5: GA-Cares Study: Identify Potential Association Between 5-year Survival and Anesthetics Medium of Resection
 
-This multi-site study is still in the **patient recruiting** process. The primary objective of this study is to determine if the administration of propofol for maintenance of general anesthesia during cancer surgery improves overall survival compared with general anesthesia maintained with a volatile agent.
+The primary objective of this multi-site study is to determine if the administration of propofol for maintenance of general anesthesia during cancer surgery improves overall survival compared with general anesthesia maintained with a volatile agent. This study is still in the **patient recruiting** process. 
 
 **Duties:**
  
 * Write **SQL queries** to retrieve patients' electrical medical records from Stony Brook Medicine database.
-* Matched surgery dates between New York State Cancer Registry (NYCR) longitudinal data and 5 sites’ electrical medical records **using R**.
-* Prepared mismatched patients’ review sheets for physicians to manually review and select the desired record.
+* Match surgery dates between New York State Cancer Registry (NYCR) longitudinal data and 5 sites’ electrical medical records **using R**.
+* Prepare mismatched patients’ review sheets for physicians to manually review and select the desired record.
 * Extract patients’ cancer recurrence information from NYCR and update in the database yearly
